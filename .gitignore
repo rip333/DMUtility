@@ -20,33 +20,39 @@
 *.lib
 *.a
 *.la
-*.lo
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Visual Studio Code
+.vscode
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Visual Studio 2015
+.vs/
+
+/packages/
+!packages/repositories.config
